@@ -15,17 +15,12 @@ img {
 
 html, body {
   width: 100%;
-  html, body {
   max-width: 100%;
-  overflow-x: hidden;
-}
   font-size: 100%;
   font-family: Alegreya;
-
 }
-
-body {
-    font-family: Alegreya;
+body{
+  overflow: hidden; 
 }
 
 /* HEADER */
@@ -34,9 +29,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     border-radius: 30px;
-    /*overflow: hidden;          * ← THIS IS CRITICAL */
     width: 100%;
     padding: 10px 0;
     position: fixed;
@@ -148,8 +141,8 @@ nav ul li a.active {
 .side-menu {
     position: fixed;
     top: 0;
-    right: -80%;
-    width: 80%;
+    right: -60%;
+    width: 60%;
     height: 100vh;
     background: #ff0586f5; 
     padding: 60px 30px;
@@ -1421,11 +1414,9 @@ body {
    ========================= */
 
 .services-page-title {
-  width: 100%;
   padding: 140px 20px 60px;
   text-align: center;
-  box-sizing: border-box;
-  background:
+   background:
     radial-gradient(circle at 20% 10%, #fd0d89 0%, transparent 40%),
     radial-gradient(circle at 80% 20%, #7e1a4f 0%, transparent 40%),
     linear-gradient(180deg, #5e1037 0%, #3d0624 100%);
@@ -1444,7 +1435,6 @@ body {
 .services-title-inner {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 .services-page-title h1 {
@@ -1466,6 +1456,8 @@ body {
    ========================= */
 
 .services-hero {
+  position: relative; 
+  overflow: hidden;
   width: 100%;
   padding: 60px 0 90px;
   background: linear-gradient(
@@ -1477,9 +1469,9 @@ body {
 .services-hero::before {
   content: "";
   position: absolute;
-  width: 600px;
-  height: 600px;
-  top: -200px;
+  width: 120%;
+  height: 500px;
+  top: -150px;
   left: 50%;
   transform: translateX(-50%);
   background: radial-gradient(
