@@ -15,8 +15,10 @@ img {
 
 html, body {
   width: 100%;
+  html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
   font-size: 100%;
   font-family: Alegreya;
 
@@ -146,8 +148,8 @@ nav ul li a.active {
 .side-menu {
     position: fixed;
     top: 0;
-    right: -60%;
-    width: 60%;
+    right: -80%;
+    width: 80%;
     height: 100vh;
     background: #ff0586f5; 
     padding: 60px 30px;
@@ -1419,9 +1421,11 @@ body {
    ========================= */
 
 .services-page-title {
+  width: 100%;
   padding: 140px 20px 60px;
   text-align: center;
-   background:
+  box-sizing: border-box;
+  background:
     radial-gradient(circle at 20% 10%, #fd0d89 0%, transparent 40%),
     radial-gradient(circle at 80% 20%, #7e1a4f 0%, transparent 40%),
     linear-gradient(180deg, #5e1037 0%, #3d0624 100%);
@@ -1440,6 +1444,7 @@ body {
 .services-title-inner {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .services-page-title h1 {
