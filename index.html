@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lavish Touch</title>
+
+<!-- Google Fonts Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Alegreya:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.webp" alt="Logo" />
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="tel:+91 1234567890" class="btn"><i class="fa-solid fa-phone"></i>Call Now</a>
+
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+
+    <div id="sideMenu" class="side-menu">
+        <span class="close-btn" onclick="toggleMenu()">×</span>
+        <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu()">Gallery</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+        <a href="tel:+911234567890" class="menu-btn" onclick="toggleMenu()" > <i class="fa-solid fa-phone"></i>Call Now</a>
+    </div>
+</header>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- BANNER SECTION -->
+<section class="banner">
+    <div class="banner-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuYWlsJTIwZGVzaWdufGVufDB8fHx8MTc2Mzc5MjAwNnww&ixlib=rb-4.1.0&q=80&w=1080" class="banner-image" alt="Banner Image">
+
+    <div class="banner-content">
+        <h1 id="typeText" class="title">Lavish Touch</h1>
+        <p class="subtitle">Where artistry meets elegance. Discover bespoke nail art and luscious eyelash extensions.</p>
+
+        <div class="banner-buttons">
+            <a href="services.html" class="primary-btn">Our Services</a>
+            <a href="contact.html" class="secondary-btn">Book Now</a>
+        </div>
+    </div>
+
+    <!-- FLOATING BUBBLES -->
+<div class="bubbles">
+    <!-- You can increase or decrease the count -->
+    <span style="--i:11"></span>
+    <span style="--i:18"></span>
+    <span style="--i:25"></span>
+    <span style="--i:14"></span>
+    <span style="--i:30"></span>
+    <span style="--i:22"></span>
+    <span style="--i:16"></span>
+    <span style="--i:19"></span>
+    <span style="--i:28"></span>
+    <span style="--i:12"></span>
+    <span style="--i:15"></span>
+    <span style="--i:20"></span>
+    <span style="--i:26"></span>
+    <span style="--i:32"></span>
+    <span style="--i:17"></span>
+    <span style="--i:23"></span>
+    <span style="--i:27"></span>
+    <span style="--i:10"></span>
+</div>
+</section>
+
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Gallery-->
+ <section class="gallery-section">
+   <div class="gallery-container">
+      <h2 class="gallery-title">Our Gallery</h2>
+      <p class="gallery-subtext">
+       A glimpse into the artistry and precision we bring to every client.
+       Explore our portfolio of stunning nail and eyelash designs.
+      </p>
+
+      <div class="carousel-wrapper">
+         <div class="carousel-track">
+
+          <!-- Add your 9 images -->
+           <div class="item"><img src="assets/img/galary/galary1.webp"></div>
+            <div class="item"><img src="assets/img/galary/galary2.webp"></div>
+            <div class="item"><img src="assets/img/galary/galary3.webp"></div>
+           <div class="item"><img src="assets/img/galary/galary4.webp"></div>
+           <div class="item"><img src="assets/img/galary/galary5.webp"></div>
+           <div class="item"><img src="assets/img/galary/galary6.webp"></div>
+           <div class="item"><img src="assets/img/galary/galary7.webp"></div>
+           <div class="item"><img src="assets/img/galary/galary8.webp"></div>
+          <div class="item"><img src="assets/img/galary/galary9.webp"></div>
+          <div class="item"><img src="assets/img/galary/galary10.webp"></div>
+          <div class="item"><img src="assets/img/galary/galary12.webp"></div>
+        </div>
+      </div>
+      <a href="gallery.html" class="view-gallery-btn">View Full Gallery</a>
+   </div>
+   <br><br>
+ </section>
+
+<!-- EXPERIENCE SECTION -->
+<section class="experience-section">
+    <div class="experience-container">
+
+        <!-- LEFT TEXT CONTENT -->
+        <div class="experience-text reveal-left">
+            <h2>Experience the Art of Beauty</h2>
+
+            <p>
+                At Lavish Touch, we believe that beauty is an art form. Our dedicated 
+                artists specialize in creating stunning, personalized looks, from 
+                intricate nail designs to flawless eyelash enhancements. We use only 
+                the highest quality products to ensure your experience is as luxurious 
+                as the results.
+            </p>
+        </div>
+
+        <!-- RIGHT IMAGES -->
+        <div class="experience-images">
+            <img src="assets/img/nailart.webp" class="img-left nails" alt="Nail Art">
+            <img src="assets/img/lashes.webp" class="img-right face" alt="Eyelash Closeup">
+        </div>
+
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<!-- WHY CHOOSE US SECTION -->
+<section class="why-choose-us">
+
+    <h2>Why Choose Us?</h2>
+    <p>We are dedicated to providing a luxurious and personalized experience.</p>
+
+    <div class="choose-container">
+
+        <!-- CARD 1 -->
+        <div class="choose-card reveal-card">
+            <div class="icon">
+                <svg width="42" height="42" viewBox="0 0 24 24" fill="#fd0d89">
+                    <path d="M12 2L2 9l10 13 10-13-10-7zm0 2.2l6.6 4.6H5.4L12 4.2zm0 15.9L5.7 10h12.6L12 20.1z"/>
+                </svg>
+            </div>
+            <h3>Quality Products</h3>
+            <p>We use only premium, industry-leading products for long-lasting, healthy results.</p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="choose-card reveal-card">
+            <div class="icon">
+                <svg width="42" height="42" viewBox="0 0 24 24" fill="#fd0d89">
+                    <path d="M7 17c-1.1 0-2 .9-2 2 0 1.7-1.3 3-3 3v1c3.3 0 6-2.7 6-6 0-.6-.4-1-1-1zm13.7-13.3c-1.5-1.5-3.9-1.5-5.4 0L9 10l5 5 6.3-6.3c1.5-1.5 1.5-3.9 0-5.4z"/>
+                </svg>
+            </div>
+            <h3>Expert Artists</h3>
+            <p>Our technicians are passionate, certified professionals dedicated to their craft.</p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="choose-card reveal-card">
+            <div class="icon">
+                <svg width="42" height="42" viewBox="0 0 24 24" fill="#fd0d89">
+                    <path d="M12 2C7 2 3 6 3 11c0 5.5 5 10 9 11 4-1 9-5.5 9-11 0-5-4-9-9-9zm0 18.7C9 19 5 15.3 5 11c0-3.9 3.1-7 7-7s7 3.1 7 7c0 4.3-4 8-7 9.7z"/>
+                </svg>
+            </div>
+            <h3>Relaxing Atmosphere</h3>
+            <p>Enjoy our calm and beautiful studio, designed for your comfort and relaxation.</p>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="choose-card reveal-card">
+            <div class="icon">
+                <svg width="42" height="42" viewBox="0 0 24 24" fill="#fd0d89">
+                    <path d="M12 22c4.9 0 9-4.1 9-9s-4.1-9-9-9S3 8.1 3 13s4.1 9 9 9zm-1-6H8v-2h3v2zm5-4.5c0 1.9-1.6 3.5-3.5 3.5H13v-2h-.5c-.8 0-1.5-.7-1.5-1.5S11.7 10 12.5 10s1.5-.7 1.5-1.5S13.3 7 12.5 7 11 7.7 11 8.5H9c0-2.2 1.8-4 4-4s4 1.8 4 4c0 1.2-.6 2.3-1.5 3z"/>
+                </svg>
+            </div>
+            <h3>Affordable Pricing</h3>
+            <p>We offer premium beauty services with transparent and budget-friendly pricing.</p>
+        </div>
+
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<!-- What Our Clients Say SECTION -->
+<section class="testimonial-section-alt">
+  <div class="testimonial-inner">
+
+    <h2 class="testimonial-title">What Our Clients Say</h2>
+    <p class="testimonial-subtitle">
+      Real experiences from clients who trust Lavish Touch.
+    </p>
+
+    <!-- floating accents -->
+    <span class="accent accent-left"></span>
+    <span class="accent accent-right"></span>
+
+    <div class="testimonial-carousel">
+      <div class="testimonial-track">
+
+        <blockquote class="testimonial-item">
+          “The attention to detail was incredible. My nails turned out exactly how I imagined,
+          and the entire experience felt relaxing and luxurious.”
+          <span>★★★★★ — Kaviya</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “My eyelashes feel so natural and lightweight. The staff made me feel comfortable,
+          and the hygiene standards were excellent.”
+          <span>★★★★★ — Shalini</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “The artistry here is truly unmatched. Every little detail was perfected,
+          and I left feeling confident and pampered.”
+          <span>★★★★★ — Sumathi</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “So hygienic and calming. From the ambience to the service,
+          everything felt thoughtfully designed.”
+          <span>★★★★★ — Saranya</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “Perfect nails and such a soothing atmosphere.
+          They really listen and deliver exactly what you want.”
+          <span>★★★★★ — Meena</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “Elegant designs, professional service, and a very relaxing environment.
+          I’ll definitely be coming back.”
+          <span>★★★★★ — Kavitha</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “Worth every penny. The quality, cleanliness, and results
+          exceeded my expectations.”
+          <span>★★★★★ — Sneha</span>
+        </blockquote>
+
+        <blockquote class="testimonial-item">
+          “My go-to beauty studio now. Consistent quality,
+          friendly staff, and beautiful results every time.”
+          <span>★★★★★ — Raji</span>
+        </blockquote>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!---------------------------------------------------------------------------------------------------------->
+<!---- Ready for your transformation section -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <h1>Ready for Your Transformation?</h1>
+    <p>Book your appointment today and let us pamper you with our luxurious treatments.</p>
+    <a href="contact.html" class="cta-btn">Contact Us</a>
+  </div>
+  
+  <div class="bottom-stripe"></div>
+</section>
+
+<!---------------------------------------------------------------------------------------------------------->
+<!-- Footer Section -->
+<footer class="footer" style="margin: 0;">
+  <div class="footer-container">
+
+    <!-- Left Column -->
+    <div class="footer-about">
+      <img src="assets/logo.webp" alt="Lavish Touch Logo" width="50" class="footer-logo">
+      <h2>Lavish Touch</h2>
+      <p class="footer-desc">
+        Experience the art of beauty with our expert nail and eyelash treatments.
+      </p>
+      <p class="unique-note">Beauty Beyond Expectations ✨</p>
+    </div>
+
+
+      <!-- SERVICES -->
+    <div class="footer-links">
+      <h4>Our Services</h4>
+      <ul>
+        <li>Nail Art & Extensions</li>
+        <li>Gel & Acrylic Nails</li>
+        <li>Eyelash Extensions</li>
+        <li>Nail Care & Repair</li>
+      </ul>
+    </div>
+
+    <!-- Social Icons Section -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Lavish Touch. All rights reserved.</p>
+  </div>
+</footer>
+<!-- scroll to top button -->
+<button id="scrollTopBtn" aria-label="Scroll to top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+ <a 
+     href="https://wa.me/#" 
+     class="whatsapp-float" 
+     target="_blank"
+     aria-label="Chat on WhatsApp"
+     >
+     <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+<script>
+//Toggle Side Menu1
+document.addEventListener("DOMContentLoaded", () => {
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const navLinks = document.querySelectorAll("nav ul li a");
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+    if (linkPage === currentPage) {
+      link.classList.add("active");
+    }
+  });
+});
+
+
+// Toggle Side Menu2
+document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".reveal-left");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+                observer.unobserve(entry.target); // animate only once
+            }
+        });
+    }, { threshold: 0.2 });
+
+    elements.forEach(el => observer.observe(el));
+});
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".reveal-card");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+                observer.unobserve(entry.target); // animate only once
+            }
+        });
+    }, { threshold: 0.2 });
+
+    cards.forEach(card => observer.observe(card));
+});
+
+/* gallary */
+document.addEventListener("DOMContentLoaded", () => {
+  const wrapper = document.querySelector(".carousel-wrapper");
+  const track = document.querySelector(".carousel-track");
+
+  const items = Array.from(track.children);
+
+  // Duplicate items once
+  items.forEach(item => {
+    track.appendChild(item.cloneNode(true));
+  });
+
+  let originalWidth = 0;
+  items.forEach(item => {
+    originalWidth += item.offsetWidth;
+  });
+
+  let speed = 1.5;
+  let isPaused = false;
+
+  function autoScroll() {
+    if (!isPaused) {
+      wrapper.scrollLeft += speed;
+
+      if (wrapper.scrollLeft >= originalWidth) {
+        wrapper.scrollLeft -= originalWidth;
+      }
+    }
+    requestAnimationFrame(autoScroll);
+  }
+
+  autoScroll();
+
+  /* ---------- DRAG / SWIPE SUPPORT ---------- */
+  let isDragging = false;
+  let startX;
+  let scrollStart;
+
+  wrapper.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    isPaused = true;
+    startX = e.pageX;
+    scrollStart = wrapper.scrollLeft;
+    wrapper.classList.add("dragging");
+  });
+
+  wrapper.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    const x = e.pageX - startX;
+    wrapper.scrollLeft = scrollStart - x;
+  });
+
+  wrapper.addEventListener("mouseup", () => {
+    isDragging = false;
+    isPaused = false;
+    wrapper.classList.remove("dragging");
+  });
+
+  wrapper.addEventListener("mouseleave", () => {
+    isDragging = false;
+    isPaused = false;
+    wrapper.classList.remove("dragging");
+  });
+
+  /* Touch (mobile) */
+  wrapper.addEventListener("touchstart", () => isPaused = true);
+  wrapper.addEventListener("touchend", () => isPaused = false);
+});
+
+/* What our client say carousel */
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.querySelector(".testimonial-track");
+  const items = Array.from(track.children);
+
+  /* ===== Clone for infinite scroll ===== */
+  items.forEach(item => {
+    track.appendChild(item.cloneNode(true));
+  });
+
+  let position = 0;
+  let speed = 0.4;
+  let isPaused = false;
+
+  function autoScroll() {
+    if (!isPaused) {
+      position -= speed;
+
+      const firstItemWidth = items[0].offsetWidth + 40;
+
+      if (Math.abs(position) >= firstItemWidth * items.length) {
+        position = 0;
+      }
+
+      track.style.transform = `translateX(${position}px)`;
+    }
+    requestAnimationFrame(autoScroll);
+  }
+
+  autoScroll();
+
+  /* ===== Pause on hover ===== */
+  track.addEventListener("mouseenter", () => isPaused = true);
+  track.addEventListener("mouseleave", () => isPaused = false);
+
+  /* ===== Touch / Drag Support ===== */
+  let startX = 0;
+  let currentX = 0;
+  let dragging = false;
+
+  track.addEventListener("mousedown", e => {
+    dragging = true;
+    startX = e.pageX;
+    isPaused = true;
+  });
+
+  window.addEventListener("mouseup", () => {
+    dragging = false;
+    isPaused = false;
+  });
+
+  window.addEventListener("mousemove", e => {
+    if (!dragging) return;
+    currentX = e.pageX - startX;
+    position += currentX * 0.6;
+    startX = e.pageX;
+    track.style.transform = `translateX(${position}px)`;
+  });
+
+  /* Touch */
+  track.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+    isPaused = true;
+  });
+
+  track.addEventListener("touchmove", e => {
+    currentX = e.touches[0].clientX - startX;
+    position += currentX * 0.8;
+    startX = e.touches[0].clientX;
+    track.style.transform = `translateX(${position}px)`;
+  });
+
+  track.addEventListener("touchend", () => {
+    isPaused = false;
+  });
+});
+
+// Scroll to Top Button
+const scrollBtn = document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 400) {
+    scrollBtn.classList.add("show");
+  } else {
+    scrollBtn.classList.remove("show");
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+//menu active state
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll("nav ul li a");
+
+menuItem.forEach(link => {
+  if (link.href === currentLocation) {
+    link.classList.add("active");
+  }
+});
+
+
+</script>
+
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>

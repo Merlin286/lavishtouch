@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lavish Touch</title>
+
+<!-- Google Fonts Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Alegreya:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.webp" alt="Logo" />
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="tel:+91 1234567890" class="btn"><i class="fa-solid fa-phone"></i>Call Now</a>
+
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+
+    <div id="sideMenu" class="side-menu">
+        <span class="close-btn" onclick="toggleMenu()">×</span>
+        <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu()">Gallery</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+        <a href="tel:+911234567890" class="menu-btn" onclick="toggleMenu()" > <i class="fa-solid fa-phone"></i>Call Now</a>
+    </div>
+</header>
+
+<section class="services-page-title">
+  <div class="services-title-inner">
+    <h1>Our Services</h1>
+    <p>Luxury nail, lash & brow treatments crafted to perfection.</p>
+  </div>
+</section>
+
+<!-- Service hero banner -->
+<section class="services-hero">
+  <div class="services-hero-inner">
+
+    <div class="hero-card nails">
+      <div class="hero-content">
+        <h2>Nail Art</h2>
+        <p>Creative, elegant & custom nail designs</p>
+      </div>
+    </div>
+
+    <div class="hero-card lashes">
+      <div class="hero-content">
+        <h2>Eyelash Extensions</h2>
+        <p>From natural to full dramatic lashes</p>
+      </div>
+    </div>
+
+    <div class="hero-card brows">
+      <div class="hero-content">
+        <h2>Brow Styling</h2>
+        <p>Perfectly shaped brows to frame your face</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+   
+
+<section class="nail-services-section" id="nail-services">
+    <h2 class="section-title">Nail Services</h2>
+    <p class="section-subtitle">
+        Our nail artists are passionate about creating stunning and durable looks. 
+        We use only high-quality, professional-grade products to ensure your nails 
+        are not only beautiful but also healthy.
+    </p>
+
+    <div class="services-wrapper">
+
+        <!-- CARD 1 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/galary/galary10.webp" alt="Custom Nail Art">
+            </div>
+            <h3>Custom Nail Art</h3>
+            <p>
+                From minimalist accents to hand-painted designs, our artists work with you 
+                to create a personalized look. Bring your inspiration or let us design 
+                something unique.
+            </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/Gel Manicure & Pedicure.webp" alt="Gel Manicure">
+            </div>
+            <h3>Gel Manicure & Pedicure</h3>
+            <p>
+                Enjoy a chip-free, high-gloss finish that lasts for weeks. We offer a wide 
+                variety of colors and finishes to match your style.
+            </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/Classic Manicure & Pedicure.webp" alt="Classic Manicure">
+            </div>
+            <h3>Classic Manicure & Pedicure</h3>
+            <p>
+                A timeless treatment that includes shaping, cuticle care, gentle scrub, and 
+                a perfect polish application for a clean, elegant finish.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="eyelash-services-section" id="eyelash-services">
+    <h2 class="section-title">Eyelash Services</h2>
+    <p class="section-subtitle">
+        Achieve the luscious, full lashes you’ve always dreamed of with our range of extension 
+        and enhancement services. Our certified lash technicians prioritize the health of your 
+        natural lashes.
+    </p>
+
+    <div class="services-wrapper">
+
+        <!-- CARD 1 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/classic.webp" alt="Classic Lash Extensions">
+            </div>
+            <h3>Classic Lash Extensions</h3>
+            <p>
+                One individual extension is applied to each natural lash, creating a subtle 
+                and natural enhancement. Perfect for adding length and curl.
+            </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="https://images.unsplash.com/photo-1630655491563-fe6ea47d06f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2b2x1bWUlMjBsYXNoZXN8ZW58MHx8fHwxNzYzOTE4MjcyfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Volume & Hybrid Extensions">
+            </div>
+            <h3>Volume & Hybrid Extensions</h3>
+            <p>
+                For a fuller, more dramatic effect, volume sets use lightweight fans of multiple 
+                extensions. Hybrid sets offer a beautiful blend of both classic and volume techniques.
+            </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYXNoJTIwbGlmdHxlbnwwfHx8fDE3NjM3MTgxODh8MA&ixlibrb-4.1.0&q=80&w=1080" alt="Lash Extensions" alt="Lash Lift & Tint">
+            </div>
+            <h3>Lash Lift & Tint</h3>
+            <p>
+                A semi-permanent treatment that gives your natural lashes a beautiful curl and lift, 
+                making them appear longer and fuller. The tint adds a dark, mascara-like effect.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="eyebrow-services-section reveal-section" id="eyebrow-services">
+    <h2 class="section-title">Eyebrow Services</h2>
+    <p class="section-subtitle">
+        Well-groomed eyebrows frame the face and enhance your features.
+        Our brow experts are skilled in a variety of techniques to create
+        your perfect brow shape and style.
+    </p>
+
+    <div class="services-wrapper">
+
+        <!-- CARD 1 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/Brow Shaping & Waxing.webp" alt="Brow Shaping & Waxing">
+            </div>
+            <h3>Brow Shaping & Waxing</h3>
+            <p>
+                Our specialists analyze your facial structure to design the ideal brow shape for you,
+                using a gentle wax for precise and clean results.
+            </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/Brow Lamination.webp" alt="Brow Lamination">
+            </div>
+            <h3>Brow Lamination</h3>
+            <p>
+                This treatment straightens and sets brow hairs in place, creating a fuller,
+                more defined, and perfectly groomed look that lasts for weeks.
+            </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="service-card reveal">
+            <div class="service-image">
+                <img src="assets/img/Brow Tinting.webp" alt="Brow Tinting">
+            </div>
+            <h3>Brow Tinting</h3>
+            <p>
+                Enhance the color and definition of your brows with a custom-blended tint.
+                This service is great for adding fullness and depth to light or sparse eyebrows.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+</main>
+
+<!-- Footer Section -->
+<!-- Footer Section -->
+<footer class="footer" style="margin: 0;">
+  <div class="footer-container">
+
+    <!-- Left Column -->
+    <div class="footer-about">
+      <img src="assets/logo.webp" alt="Lavish Touch Logo" width="50" class="footer-logo">
+      <h2>Lavish Touch</h2>
+      <p class="footer-desc">
+        Experience the art of beauty with our expert nail and eyelash treatments.
+      </p>
+      <p class="unique-note">Beauty Beyond Expectations ✨</p>
+    </div>
+
+
+      <!-- SERVICES -->
+    <div class="footer-links">
+      <h4>Our Services</h4>
+      <ul>
+        <li>Nail Art & Extensions</li>
+        <li>Gel & Acrylic Nails</li>
+        <li>Eyelash Extensions</li>
+        <li>Nail Care & Repair</li>
+      </ul>
+    </div>
+
+    <!-- Social Icons Section -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Lavish Touch. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<!-- scroll to top button -->
+<button id="scrollTopBtn" aria-label="Scroll to top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+ <a 
+     href="https://wa.me/#" 
+     class="whatsapp-float" 
+     target="_blank"
+     aria-label="Chat on WhatsApp"
+     >
+     <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+
+
+
+<script>
+
+// --- GENERAL REVEAL FOR LEFT / RIGHT ANIMATIONS ---
+const revealSideItems = document.querySelectorAll(".reveal-left, .reveal-right");
+
+function revealSideScroll() {
+    revealSideItems.forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+            el.classList.add("reveal-active");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealSideScroll);
+window.addEventListener("load", revealSideScroll);
+
+
+// --- ANIMATION FOR NAILS (anim-left / anim-right) ---
+function revealElements() {
+    const elements = document.querySelectorAll('.anim-left, .anim-right');
+
+    elements.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        const threshold = window.innerHeight - 120;
+
+        if (top < threshold) {
+            el.classList.add('anim-show');
+        }
+    });
+}
+
+window.addEventListener('scroll', revealElements);
+window.addEventListener('load', revealElements);
+
+
+// --- CARD REVEAL (.reveal) ---
+const reveal = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+    reveal.forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight - 120) {
+            el.classList.add("show");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
+
+
+// --- SIDE MENU ---
+function toggleMenu() {
+    document.getElementById("sideMenu").classList.toggle("active");
+}
+
+
+
+
+
+
+  // reveal cards when user scrolls to section
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+    for (let i = 0; i < reveals.length; i++) {
+        let windowHeight = window.innerHeight;
+        let revealTop = reveals[i].getBoundingClientRect().top;
+
+        if (revealTop < windowHeight - 120) {
+            reveals[i].classList.add("show");
+        }
+    }
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
+
+
+// Side Menu Toggle
+function toggleMenu() {
+    document.getElementById("sideMenu").classList.toggle("active");
+}
+
+// Scroll to Top Button
+const scrollBtn = document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 400) {
+    scrollBtn.classList.add("show");
+  } else {
+    scrollBtn.classList.remove("show");
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+//menu active state
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll("nav ul li a");
+
+menuItem.forEach(link => {
+  if (link.href === currentLocation) {
+    link.classList.add("active");
+  }
+});
+</script>
+
+
+</body>
+</html>
